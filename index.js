@@ -14,7 +14,7 @@ function paddingLeft(string, finalSize, defaultValuePadding) {
 	if (string.length < finalSize){
 		let paddingCharacters = finalSize - string.length;
 		for (var i = 0; i < paddingCharacters; i++) {
-			finalString += "x";
+			finalString += " ";
 		}
 		finalString += string;
 	}
